@@ -1,0 +1,44 @@
+.nav>li {
+    display: inline-block;
+    border: 1px solid #000;
+    border-right: 0;
+    margin-left: -4px;
+    padding: .5em 1em;    
+    position: relative;
+    
+}
+
+/*
+li {
+    box-sizing: border-box;
+width: 12%;}
+*/
+
+.nav>li:last-child {
+    border-right: 1px solid #000;
+    
+}
+
+.submenu{
+    width: 200px;
+    background: #eee;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    position: absolute;
+    left: -1px;
+    top: 100%;
+    }
+
+/*
+.submenu li {
+    list-style-type: none;
+    padding: .5em 15px;
+    cursor:pointer;    
+}
+*/
+
+.nav>li:hover .submenu{
+    display: block;
+}
+ 

@@ -1,0 +1,47 @@
+/**{  box-sizing:  border-box;  }*/
+
+div {display: block;}
+
+.lesson1 {
+    border-top: 100px solid rgb(0, 129, 0);
+    border-right: 100px solid rgb(255, 0, 0);
+    border-bottom: 100px solid rgb(0, 0, 255);
+    border-left: 100px solid rgb(255, 255, 0);
+    width: 0px;
+    height: 0px;
+}
+
+
+.lesson2 {
+    border-top: 100px solid rgb(172, 216, 231);
+    border-right: 100px solid rgb(0, 0, 255);
+    border-bottom: 0px solid rgb(0, 0, 255);
+    border-left: 100px solid rgb(0, 0, 130);
+    width: 0px;
+    height: 0px;
+}
+
+.lesson3 {
+    background: rgb(141,240,140);
+    border-top: 6px double rgb(0,129,0);
+    border-right: 6px solid rgb(0,129,0);
+    border-bottom: 6px dotted rgb(0,129,0);
+    border-left: 6px solid rgb(0, 129,0);
+    width: 200px;
+    height: 50px;
+}
+
+.lesson4 {
+    background: rgb(141,240,140);
+/*    border-top: 6px double rgb(0,129,0);*/
+    border-right: 6px solid rgb(0,129,0);
+    border-bottom: 6px solid rgb(0,129,0);
+    border-left: 6px solid rgb(0, 129,0);
+    width: 150px;
+    height: 200px;
+}
+
+.floating-box {
+    float: left;
+}
+

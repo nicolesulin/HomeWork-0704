@@ -1,0 +1,131 @@
+* {
+    font-family: 華康細圓體;
+    font-weight: 200;
+}
+
+.nav>li {
+    float: left;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-right: 0;
+    padding: .5em 1em;
+    margin-left: -5px;
+    box-sizing: border-box;
+    width: 33.33%;
+    display: inline-block;
+    position: relative;
+}
+
+.nav>li:hover .submenu {
+    display: block;
+}
+
+.nav>li:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.submenu {
+    background: #eee;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+    left: -1px;
+    top: 100%;
+    display: none;
+}
+
+.submenu li {
+    padding: .5em 15px;
+    color: black;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.submenu li:hover {
+    color: lightgray;
+    background: white;
+}
+
+header {
+    padding-bottom: 2%;
+    text-align: center;
+    width: 100%;
+    background: lightblue;
+    height: 100px;
+    line-height: 100px;
+}
+nav {
+    padding-top: 1%;
+    text-align: center;
+    width: 100%;
+    background: yellow;
+    height: 50px;
+    line-height: 50px;
+}
+sidebar {
+    padding-right: 2%;
+    text-align: center;
+    width: 23%;
+    background: navy;
+    float: left;
+    height: 400px;
+    line-height: 400px;
+}
+main {
+    text-align: center;
+    width: 75%;
+    background: lightgreen;
+    float: right;
+    height: 400px;
+    line-height: 400px;
+}
+footer {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    text-align: center;
+    width: 100%;
+    float:left;
+    background: orange;
+    height: 50px;
+    line-height: 50px;
+}
+
+.circle {float:right; 
+    position: fixed;
+    z-index: 99;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    font-size:23px;
+    font-family: Arial;
+    font-weight: 600;
+    color:#ffffff;
+    line-height: 55px;
+    text-align: center;
+    background: #ff0000;
+    overflow: hidden;
+}
+
+#bg { 
+    background-image: url(images/teacher.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:1800px; }
+
+.mydiv-a {
+    float: right;
+    margin-top: 500px;
+	background-color:transparent;
+    width: 120px;
+	height: 120px;
+	position: fixed;
+    top: 0px;
+	right: 0px;
+	opacity: 0.9;
+	padding:10px;
+	z-index: 98;
+	}
