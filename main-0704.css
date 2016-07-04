@@ -3,8 +3,18 @@
     font-weight: 200;
 }
 
+.teacher{}
+
+.teacher { 
+    background-image: url(images/furniture.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:350px; }
+
 .nav>li {
     float: left;
+    background-color: crimson;
+    color: white;
     font-size: 16px;
     border: 1px solid #ddd;
     border-right: 0;
